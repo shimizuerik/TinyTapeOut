@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
-project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+project: 
+  wokwi_id:     413918244906651649       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "Not Good BCD Decoder"      # Project title
+  author:       "Erik Shimizu"      # Your name
+  discord:      "shimimimimi"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "Supposed to be a binary decoder"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -15,7 +15,7 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
+  ui[0]: "IN0"
   ui[1]: ""
   ui[2]: ""
   ui[3]: ""
@@ -25,13 +25,13 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
+  uo[0]: "OUT0"
+  uo[1]: "OUT1"
+  uo[2]: "OUT2"
+  uo[3]: "OUT3"
+  uo[4]: "OUT4"
+  uo[5]: "OUT5"
+  uo[6]: "OUT6"
   uo[7]: ""
 
   # Bidirectional pins
